@@ -1,8 +1,8 @@
 # Idle Mining XMR
 
-Python script which runs XMRig only when your PC has been idle for a specified amount of time.
+Python script which runs XMRig when your system idle and stops it when it's not.
 
-No Windows version available and I do not have plans to make one.
+No Windows version available and I do not have plans to make one as this can be achieved using Task Scheduler.
 
 ## Requirements
 
@@ -25,6 +25,12 @@ No Windows version available and I do not have plans to make one.
 **Note that time is provided in seconds.**
 
 `./IdleMiningXMR.py <idle time> <check delay> </path/to/config.json>`
+
+Idle time: The amount of time the system must be idle before running XMRig.
+
+Check delay: The delay between checks of the system's idle time.
+
+Path to config: A full or relative path to your XMRig configuration.
 
 Example:
 

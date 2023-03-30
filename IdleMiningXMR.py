@@ -23,7 +23,8 @@ def idle_time():
 
     # Convert the time to seconds
     idle_time = idle_time / 1000
-    print( current_time() + "Idle time: " + str(idle_time) + " seconds")
+    print( current_time() + "Idle time: " + str(idle_time) + " seconds. (Threshold: " + str(time_idle) + " seconds)")
+
 
     # Return the time
     return idle_time
